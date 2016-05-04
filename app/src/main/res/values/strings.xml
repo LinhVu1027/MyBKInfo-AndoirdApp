@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">MyBKInfo</string>
+    <string name="action_settings">Settings</string>
+    <string name="student_infomation">Xem thông tin sinh viên</string>
+    <string name="infomation_info">Xem Thông tin</string>
+    <string name="student_info">Sinh viên</string>
+    <string name="mssv">MSSV</string>
+    <string name="fragment_home_page_schedule">Xem thời khóa biểu</string>
+    <string name="fragment_home_page_test_schedule">Xem lịch thi</string>
+    <string name="fragment_home_page_test_point">Xem điểm thi</string>
+    <string name="accept">Xác nhận</string>
+
+    <string name="student">Sinh viên: </string>
+    <string name="MSSV">MSSV: </string>
+    <string name="subject_code">Mã MH</string>
+    <string name="subject">Môn học</string>
+    <string name="group">Nhóm</string>
+    <string name="credits">Số tín chỉ</string>
+    <string name="credit">Tín chỉ</string>
+    <string name="credit_free">Tín chỉ học</string>
+    <string name="weekday">Thứ</string>
+    <string name="session">Tiết</string>
+    <string name="room">Phòng</string>
+    <string name="week">Tuần học</string>
+    <string name="midterm_test">Kiểm tra</string>
+    <string name="final_test">Thi</string>
+    <string name="final_score">Tổng kết</string>
+    <string name="total_register_credit">Tổng số tín chỉ đăng kí</string>
+    <string name="total_accumulate_credit">Tổng số tín chỉ tích lũy</string>
+    <string name="total_credit">Tổng số tín chỉ</string>
+    <string name="semester">Trung bình học kì</string>
+    <string name="all_semester">Trung bình tích lũy</string>
+    <string name="day">Ngày</string>
+    <string name="hour">Giờ</string>
+    <string name="test_schedule_midterm">Kiểm tra giữa kì</string>
+    <string name="test_schedule_final">Kiểm tra cuối kì</string>
+    <string name="point">Điểm</string>
+
+    <string name="get_information">Get information</string>
+
+    <string name="save">Lưu</string>
+    <string name="print">In</string>
+
+    <string name="app_name_schedule">Thời khóa biểu</string>
+    <string name="app_name_test_schedule">Lịch thi</string>
+    <string name="app_name_test_point">Điểm thi</string>
+
+    <string name="student_code">Mã số sinh viên</string>
+    <string name="title_activity_print_dialog">PrintDialogActivity</string>
+
+    <string name="helper">Trợ giúp</string>
+    <string name="helper_1">1. Người dùng lựa chọn một trong ba chức năng mà ứng dụng của chúng tôi hỗ trợ.</string>
+    <string name="helper_1_1">- Xem thời khóa biểu</string>
+    <string name="helper_1_2">- Xem lịch thi</string>
+    <string name="helper_1_3">- Xem điểm</string>
+    <string name="helper_1_4">Để lựa chọn nhấn vào các nút hiển thị trên màn hình chủ.</string>
+
+    <string name="helper_2">2. Để thoát ứng dụng nhấn nút back của thiết bị.</string>
+
+
+</resources>

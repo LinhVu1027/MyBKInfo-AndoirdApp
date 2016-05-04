@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="15sp"
+        android:textAlignment="center"
+        android:text="Sinh viên: Nguyễn Văn A\nMSSV: 5120xxxx\nLớp MT12KH02\nHọc kỳ: I (2015 - 2016)"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fragment_schedule_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

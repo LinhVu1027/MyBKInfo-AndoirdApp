@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.allenwalker.android.mybkinfo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".HomePageActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HelperActivity"
+                  android:label="@string/helper"
+                  android:parentActivityName=".HomePageActivity"
+                  android:theme="@style/AppTheme.Request"></activity>
+        <activity
+            android:name=".RequestActivity"
+            android:label="@string/student_code"
+            android:parentActivityName=".HomePageActivity"
+            android:theme="@style/AppTheme.Request"></activity>
+        <activity
+            android:name=".ScheduleActivity"
+            android:label="@string/app_name_schedule"
+            android:parentActivityName=".RequestActivity"
+            android:theme="@style/AppTheme.Schedule"></activity>
+        <activity
+            android:name=".TestScheduleActivity"
+            android:label="@string/app_name_test_schedule"
+            android:parentActivityName=".RequestActivity"
+            android:theme="@style/AppTheme.TestSchedule"></activity>
+        <activity
+            android:name=".TestPointActivity"
+            android:label="@string/app_name_test_point"
+            android:parentActivityName=".RequestActivity"
+            android:theme="@style/AppTheme.TestPoint"></activity>
+        <activity
+            android:name=".PrintDialogActivity"
+            android:label="@string/title_activity_print_dialog"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
